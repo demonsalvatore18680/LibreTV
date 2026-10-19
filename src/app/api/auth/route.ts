@@ -1,3 +1,4 @@
+export const dynamic = 'force-static';
 import { NextResponse } from 'next/server';
 import { SESSION_COOKIE, checkRateLimit, sessionFromCookieHeader, signSession, checkPassword, clearRateLimit, isPasswordConfigured } from '@/lib/auth';
 
